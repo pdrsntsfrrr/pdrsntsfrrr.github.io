@@ -65,17 +65,14 @@
             {lang: 'pt-PT'}
         </script>
 
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-26186642-1']);
-            _gaq.push(['_setDomainName', 'Techpulse.pt']);
-            _gaq.push(['_trackPageview']);
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9CXW0JE9X0"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-            (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
+            gtag('config', 'G-9CXW0JE9X0');
         </script>
     </head>
     <body>
@@ -90,7 +87,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..." ></a> -->
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..." ></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
